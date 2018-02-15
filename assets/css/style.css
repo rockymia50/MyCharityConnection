@@ -1,0 +1,23 @@
+/* style for buttons */
+.text-center {
+    text-align: center!important;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.btn-outline-light {
+    color: #117be6;
+   
+    background-image: none;
+    border-color: #3d5063;
+}
+
+
+/* Footer style */
+.footer-below {
+    background-color: lightblue;
+    padding:1.5rem;
+    
+}
