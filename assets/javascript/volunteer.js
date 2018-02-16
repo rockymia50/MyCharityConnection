@@ -161,14 +161,29 @@ var farming = [
     }
   }
 ]
+$(document).ready(function() {
+    //set initial state.
+    $('#foodPantry').val(this.checked);
+
+    $('#foodPantry').change(function() {
+        if(this.checked) {
+          $("#array").html("<div> <h2> volunteer at " + foodPantry.address + "</h2></div>");
+        }
+
+    });
+});
 
 
-  console.log(foodPantry);
-  console.log(homeless );
-  console.log(farming );
-  console.log(kids );
-  console.log( animals );
-  console.log( mentoring);
+  // console.log(foodPantry);
+  // console.log(homeless );
+  //
+  // console.log(kids );
+  // console.log( animals );
+  // console.log( mentoring);
+
+
+
+
 //determine which checkboxes are returning as true
 
 //create array of true checkbox values
