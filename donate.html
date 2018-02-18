@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
 
     <!-- Links to different pages -->
-    <link href="MyCharityConnection/assets/css/reset.css" type="reset" rel="reset">
-    <link href="/Users/rogermcintosh/MyCharityConnection/assets/css/style.css" type="text/css" rel="stylesheet">
-
-
+    <link href="./assets/css/reset.css" type="reset" rel="reset">
+    <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
 
     <!-- Start WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
@@ -79,19 +77,17 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2" style="float:left; width:50%">
-                    <p>Feeling like randomly donating to a great charity. Push our generator to get you going to the right place</p>
+                <div class="col-md-4" style="float:left; width:75%">
+                    <p>Feeling like randomly donating to a great charity? Push our donate button!</p>
                 </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-lg-offset-2" style="float:left; width:50%">GIVE NOW
+                        <div class="col-md-4" style="float:right">
                             <FORM NAME="WordForm">
+                                <INPUT TYPE=BUTTON VALUE="Donate Now!" onClick="pickRand(document.WordForm);" id="button">
                                 <div TYPE=TEXT NAME="WordBox" id="wordbox"></div>
                                 <BR>
-                                <INPUT TYPE=BUTTON VALUE="Generate" onClick="pickRand(document.WordForm);" id="button">
                             </FORM>
                         </div>
-                    </div>
-                    </div>
+                </div>
             <div class="container">
             <div class="row">
             <div class="widget col-md-6">
@@ -223,6 +219,60 @@
             </div>
         </div>
     </section>
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>3481 Melrose Place
+                            <br>Beverly Hills, CA 90210</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About Charity Connect</h3>
+                        <p>Started by 4 nobody's who wanted to be somebody's to better connect people with philantropic
+                            causes
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                            <h3>Around the Web</h3>
+                            <ul class="list-inline">
+                                <li>
+                                    <a href="#" class="btn-social btn-outline" style="font-size:36px">
+                                        <i class="fa fa-fw fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="icon" style="font-size:36px">
+                                        <i class="fa fa-fw fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social btn-outline-light btn-social text-center rounded-circle" style="font-size:36px">
+                                        <i class="fa fa-fw fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn-social btn-outline" style="font-size:36px">
+                                        <i class="fa fa-fw fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Charity Connect 2018
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
     <script type="text/javascript" src="./assets/javascript/donate.js"></script>
 </body>
