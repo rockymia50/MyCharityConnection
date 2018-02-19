@@ -7,8 +7,20 @@ body {
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
+    
 }
 
+p{
+color:rgb(13, 13, 87);
+font-weight: bold;
+
+}
+
+
+.title{
+color:rgb(1, 1, 164);
+
+}
 @-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%
