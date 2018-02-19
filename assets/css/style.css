@@ -1,8 +1,7 @@
 /* Style for background */
 
 body {
-    width: 100wh;
-    height: 100vh;
+    height: 145vh;
     background: linear-gradient(-45deg, #c8e6fc, rgb(15, 203, 236), #c8e6fc, rgb(36, 124, 255), rgb(6, 233, 21)), green;
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
@@ -114,7 +113,28 @@ canvas{
     display: inline-flex;
 }
 
-/* Tile Styling */
+
+ /* Top Section Styling */
+
+.top {
+    padding-top: 99px;
+    margin-right:20px;
+    margin-left:20px;
+    text-align: center;
+}
+
+/* End Top Section Styling */
+
+
+
+
+
+/* Tile Styling (middle> */
+
+.middle{
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
 
 .parent{
     display: inline-flex;
@@ -124,9 +144,6 @@ canvas{
     border-color: green;
     border: solid;
     
-    
-
-
 }
 .content ul{
     list-style: none;
@@ -139,12 +156,17 @@ canvas{
 
 /* Footer style */
 
-#footer {
-    padding: 0;
+
+
+.bottom{
+    padding: 5px;
     background-color: #c9e7fc;
-    line-height: 0;
-    margin-top: 30px;
+    
 }
+
+
+
+/* End Footer style */
 
 .scroll {
     margin-top: -25;
@@ -195,13 +217,9 @@ h1 {
 
 /* End Charity button styling */
 
-.success {
-    padding-top: 65px;
-    padding-bottom:70px;
-    margin-right:20px;
-    margin-left:20px;
-    text-align: center;
-}
+
+ 
+
 
 /* Contact us Styling */
 
