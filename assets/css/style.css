@@ -1,53 +1,61 @@
 /* Style for background */
+
 body {
-	width: 100wh;
-	height: 90vh;
-	color: #fff;
-	background: linear-gradient(-45deg,#c8e6fc, rgb(15, 203, 236),#c8e6fc, rgb(36, 124, 255), rgb(6, 233, 21)), green;
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+    height: 145vh;
+    background: linear-gradient(-45deg, #c8e6fc, rgb(15, 203, 236), #c8e6fc, rgb(36, 124, 255), rgb(6, 233, 21)), green;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    
 }
 
+p{
+color:rgb(13, 13, 87);
+font-weight: bold;
+
+}
+
+
+.title{
+color:rgb(1, 1, 164);
+
+}
 @-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 @-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
 
 @keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
 }
-
-
-
 
 /* 
 #particles-js{
@@ -61,28 +69,49 @@ canvas{
 }
 */
 
-.navbar-default {
-    background-color: #c8e6fc;
-    border-color: #e7e7e7;
+/* Navigation Styling */
+
+.hero-head {
+    position: fixed;
+    height: 0px;
+    width: 100%;
+    z-index: 100;
 }
 
-.intro-text{
-    margin-top: 30px;
-    text-align: center;
-    font-size: 25px;
+.navbar {
+    background-color: #c9e7fc;
+    border-bottom: solid;
+    border-bottom-color: green;
 }
 
-/* style for buttons */
+.navbar-pic {
+    width: 216px;
+    margin-bottom: -7px;
+}
+
+ a:hover {transition: .8s;
+         border-radius: 50%;
+         border-width: 5px;
+    background-color: transparent;
+    border-color: #010e1c; 
+    font-size:150%;   
+}
+
+/* End Navigation Styling */
+
+/* style for buttons
 
 .text-center {
-    text-align: center!important;
+    text-align: center !important;
 }
-.page-top{
+
+.page-top {
     position: absolute;
     top: 0;
 }
+
 .rounded-circle {
-    border-radius: 50%!important;
+    border-radius: 50% !important;
 }
 
 .btn-outline-light {
@@ -90,31 +119,84 @@ canvas{
     background-color: transparent;
     background-image: none;
     border-color: #3d5063;
+} */
+
+.list-inline {
+    display: inline-flex;
+}
+
+
+ /* Top Section Styling */
+
+.top {
+    padding-top: 99px;
+    margin-right:20px;
+    margin-left:20px;
+    text-align: center;
+}
+
+/* End Top Section Styling */
+
+
+
+
+
+/* Tile Styling (middle> */
+
+.middle{
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+
+.parent{
+    display: inline-flex;
+    width: 75%;
+    text-align: center;
+    border-top:  5px;
+    border-color: green;
+    border: solid;
+    
+}
+.content ul{
+    list-style: none;
+    margin-left: 2em;
+    margin-top: 0px;
+    
+    
 }
 
 
 /* Footer style */
-.footer-below {
-    background-color: lightblue;
-    padding:1.5rem;
+
+
+
+.bottom{
+    padding: 5px;
+    background-color: #c9e7fc;
     
 }
 
 
 
-h1{
-font-size: 7rem;
-position: absolute;
-top: 35%;
-left: 35%;
-color: #FFF;
-font-family: teko;
-font-weight: 400;
-text-shadow: 5px 5px #5F6D72;
-text-transform: uppercase;
+/* End Footer style */
+
+.scroll {
+    margin-top: -25;
 }
 
-/* Styling for random donate buttons "charity name" and "amounts" */
+h1 {
+    font-size: 7rem;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    color: #FFF;
+    font-family: teko;
+    font-weight: 400;
+    text-shadow: 5px 5px #5F6D72;
+    text-transform: uppercase;
+}
+
+/* Styling for random donate buttons "charity name" */
 
 #wordbox {
     position: relative;
@@ -132,7 +214,7 @@ text-transform: uppercase;
 
 #button {
     position: relative;
-  background: #0b7fba;
+    background: #0b7fba;
     border: 0;
     color: #fff;
     font-size: 20px;
@@ -143,23 +225,35 @@ text-transform: uppercase;
     text-align: center;
     border-radius: 6px;
     font-weight: bold;
-    
 }
+
+/* End Charity button styling */
+
+
+ 
+
 
 /* Contact us Styling */
 
-#contact{
-margin-top: 90px;
-
+.hero-head {
+    bottom: 0px;
+    top: 0px;
 }
 
-.talk{
-position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+h3 {
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-h3{
-    font-size: 
+/* Slideshow Styling */
+
+.slideshow{
+          
+          border-style: solid;
+          border-color: #254b67;
+          border-width: thick;
+          box-sizing: border-box;
+           box-shadow: 7px 7px 7px 7px #3d5063;
+
+
 }
