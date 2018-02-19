@@ -69,6 +69,8 @@ canvas{
 
 .navbar {
     background-color: #c9e7fc;
+    border-bottom: solid;
+    border-bottom-color: green;
 }
 
 .navbar-pic {
@@ -76,9 +78,17 @@ canvas{
     margin-bottom: -7px;
 }
 
+ a:hover {transition: .8s;
+         border-radius: 50%;
+         border-width: 5px;
+    background-color: transparent;
+    border-color: #010e1c; 
+    font-size:150%;   
+}
+
 /* End Navigation Styling */
 
-/* style for buttons */
+/* style for buttons
 
 .text-center {
     text-align: center !important;
@@ -98,7 +108,7 @@ canvas{
     background-color: transparent;
     background-image: none;
     border-color: #3d5063;
-}
+} */
 
 .list-inline {
     display: inline-flex;
@@ -106,9 +116,24 @@ canvas{
 
 /* Tile Styling */
 
-.tile {
+.parent{
+    display: inline-flex;
+    width: 75%;
     text-align: center;
-  
+    border-top:  5px;
+    border-color: green;
+    border: solid;
+    
+    
+
+
+}
+.content ul{
+    list-style: none;
+    margin-left: 2em;
+    margin-top: 0px;
+    
+    
 }
 
 
@@ -188,4 +213,17 @@ h1 {
 h3 {
     font-size: 20px;
     font-weight: bolder;
+}
+
+/* Slideshow Styling */
+
+.slideshow{
+          
+          border-style: solid;
+          border-color: #254b67;
+          border-width: thick;
+          box-sizing: border-box;
+           box-shadow: 7px 7px 7px 7px #3d5063;
+
+
 }

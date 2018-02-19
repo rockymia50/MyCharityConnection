@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
     <!-- Links to different pages -->
     <link href="./assets/css/reset.css" type="reset" rel="reset">
     <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
@@ -18,8 +19,6 @@
 
     <!-- Start WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-
-    <!-- JQuery -->
 
 </head>
 
@@ -42,14 +41,21 @@
                 </div>
                 <div id="navbarMenu" class="navbar-menu">
                     <div class="navbar-end">
-                        <a class="navbar-item" a href="./index.html">
-                            About
+
+                        <a class="navbar-item" style="cursor:crosshair;font-size:35px;color:blue;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"
+                            a href="./index.html">
+                            <i class="fa fa-home"></i>
                         </a>
-                        <a class="navbar-item" a href="./donate.html">
-                            Donate
+
+                        <a class="navbar-item" style="cursor:crosshair;font-size:35px;color:gree;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"
+                            a href="./donate.html">
+                            <i class="fa fa-money"></i>
+
                         </a>
-                        <a class="navbar-item" a href="./contactus.html">
-                            Contact Us
+                        <a class="navbar-item" style="cursor:crosshair;font-size:35px;color:yellow;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"
+                            a href="./contactus.html">
+                            <i class="fa fa-envelope"></i>
+
                         </a>
                     </div>
                 </div>
@@ -64,11 +70,11 @@
         <div class="container">
             <div class="row">
 
-                <h2>About</h2>
+                <h2><strong>About</strong></h2>
             </div>
         </div>
         <div class="columns">
-            <div class="column">
+            <div class="column is-one-half">
                 <p>Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
                     in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
                     a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
@@ -78,7 +84,7 @@
                     on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum
                     dolor sit amet..", comes from a line in section 1.10.32.</p>
             </div>
-            <div class="column">
+            <div class="column is-one-half">
                 <p>Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
                     in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,
                     a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
@@ -91,58 +97,61 @@
         </div>
         </div>
     </section>
-
     <section>
         <div class="tile is-ancestor">
             <div class="tile is-parent">
-                <div id="tile is-2 is-child box is-one-third">
-                    <h3>Location</h3>
+                <article class="tile is-child box">
+                    <p class="title">Location</p>
                     <p>3481 Melrose Place
                         <br>Beverly Hills, CA 90210
                     </p>
-                </div>
-
-                <div id="tile is-2 is-child box is-one-third is-narrow">
-                    <h3>About Charity Connect</h3>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is- 2 is-child box" style="width: 20%;height: 47%;">
+                    <p class="title">Charity Connect</p>
                     <p>Started by 4 nobody's who wanted to be somebody's to better connect people with philantropic causes
                     </p>
-                </div>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box">
+                    <p class="title">Around The Web</p>
+                    <div class="content">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="www.facebook.com" class="" style="font-size:36px">
+                                    <i class="fa fa-fw fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="www.twitter.com" class="" style="font-size:36px">
+                                    <i class="fa fa-fw fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="www.linkedin.com" class="" style="font-size:36px">
+                                    <i class="fa fa-fw fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="www.instagram.com" class="" style="font-size:36px">
+                                    <i class="fa fa-fw fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
 
-                <div id="tile is-2 is-child box is-one-third">
-                    <h3>Around the Web</h3>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#" class="btn-social btn-outline" style="font-size:36px">
-                                <i class="fa fa-fw fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="icon" style="font-size:36px">
-                                <i class="fa fa-fw fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline-light btn-social text-center rounded-circle" style="font-size:36px">
-                                <i class="fa fa-fw fa-linkedin"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn-social btn-outline" style="font-size:36px">
-                                <i class="fa fa-fw fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                    </div>
+                </article>
             </div>
         </div>
 
     </section>
+
     <footer id="footer">
         <div class="container">
             <div class="content has-text-centered">
-
                 <strong> Copyright @ Charity Connect 2018</strong>
-
             </div>
         </div>
     </footer>
