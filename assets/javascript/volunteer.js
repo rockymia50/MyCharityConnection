@@ -195,7 +195,7 @@ var farming = [
 $('#foodPantry').val(this.checked);
   $('#foodPantry').change(function() {
     if (this.checked) {
-      $("#array").css("visibility", "visible")
+      $("#array1").css("visibility", "visible")
       for (var i = 0; i < foodPantry.length; i++) {
         var h2 = $('<h2>');
           h2.append('<h2>' + foodPantry[i].name + '</h2>');
@@ -204,13 +204,13 @@ $('#foodPantry').val(this.checked);
           p.append('<p>' + foodPantry[i].address + '</p>');
           p.append('<p>' + foodPantry[i].phone + '</p>');
           p.append('<p>' + foodPantry[i].website + '</p>');
-        $('#array').append(h2);
-        $('#array').append(p);
+        $('#array1').append(h2);
+        $('#array1').append(p);
       }
     }
     else {
-      $("#array").empty();
-      $("#array").css("visibility", "hidden")
+      $("#array1").empty();
+      $("#array1").css("visibility", "hidden")
     }
   });
 
@@ -219,7 +219,7 @@ $('#foodPantry').val(this.checked);
 $('#soupKitchen').val(this.checked);
 $('#soupKitchen').change(function() {
   if (this.checked) {
-      $("#array").css("visibility", "visible")
+      $("#array2").css("visibility", "visible")
     for (var i = 0; i < soupKitchen.length; i++) {
       var h2 = $('<h2>');
         h2.append('<h2>' + soupKitchen[i].name + '</h2>');
@@ -228,13 +228,13 @@ $('#soupKitchen').change(function() {
         p.append('<p>' + soupKitchen[i].address + '</p>');
         p.append('<p>' + soupKitchen[i].phone + '</p>');
         p.append('<p>' + soupKitchen[i].website + '</p>');
-      $('#array').append(h2);
-      $('#array').append(p);
+      $('#array2').append(h2);
+      $('#array2').append(p);
     }
   }
   else {
-    $("#array").empty();
-    $("#array").css("visibility", "hidden")
+    $("#array2").empty();
+    $("#array2").css("visibility", "hidden")
   }
 });
 
@@ -244,7 +244,7 @@ $('#soupKitchen').change(function() {
 $('#elders').val(this.checked);
 $('#elders').change(function() {
   if (this.checked) {
-      $("#array").css("visibility", "visible")
+      $("#array3").css("visibility", "visible")
     for (var i = 0; i < elders.length; i++) {
       var h2 = $('<h2>');
         h2.append('<h2>' + elders[i].name + '</h2>');
@@ -253,13 +253,13 @@ $('#elders').change(function() {
         p.append('<p>' + elders[i].address + '</p>');
         p.append('<p>' + elders[i].phone + '</p>');
         p.append('<p>' + elders[i].website + '</p>');
-      $('#array').append(h2);
-      $('#array').append(p);
+      $('#array3').append(h2);
+      $('#array3').append(p);
     }
   }
   else {
-    $("#array").empty();
-    $("#array").css("visibility", "hidden")
+    $("#array3").empty();
+    $("#array3").css("visibility", "hidden")
   }
 });
 // //If Children is clicked, this function will run to display all organizations in the kids Array.
@@ -268,7 +268,7 @@ $('#elders').change(function() {
 $('#kids').val(this.checked);
 $('#kids').change(function() {
   if (this.checked) {
-      $("#array").css("visibility", "visible")
+      $("#array4").css("visibility", "visible")
     for (var i = 0; i < kids.length; i++) {
       var h2 = $('<h2>');
         h2.append('<h2>' + kids[i].name + '</h2>');
@@ -277,13 +277,13 @@ $('#kids').change(function() {
         p.append('<p>' + kids[i].address + '</p>');
         p.append('<p>' + kids[i].phone + '</p>');
         p.append('<p>' + kids[i].website + '</p>');
-      $('#array').append(h2);
-      $('#array').append(p);
+      $('#array4').append(h2);
+      $('#array4').append(p);
     }
   }
   else {
-    $("#array").empty();
-    $("#array").css("visibility", "hidden")
+    $("#array4").empty();
+    $("#array4").css("visibility", "hidden")
   }
 });
 // //If Mentoring is clicked, this function will run to display all organizations in the mentoring Array.
@@ -292,7 +292,7 @@ $('#kids').change(function() {
 $('#mentoring').val(this.checked);
 $('#mentoring').change(function() {
   if (this.checked) {
-      $("#array").css("visibility", "visible")
+      $("#array5").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
       var h2 = $('<h2>');
         h2.append('<h2>' + mentoring[i].name + '</h2>');
@@ -301,13 +301,13 @@ $('#mentoring').change(function() {
         p.append('<p>' + mentoring[i].address + '</p>');
         p.append('<p>' + mentoring[i].phone + '</p>');
         p.append('<p>' + mentoring[i].website + '</p>');
-      $('#array').append(h2);
-      $('#array').append(p);
+      $('#array5').append(h2);
+      $('#array5').append(p);
     }
   }
   else {
-    $("#array").empty();
-    $("#array").css("visibility", "hidden")
+    $("#array5").empty();
+    $("#array5").css("visibility", "hidden")
   }
 });
 // //If Homeless Services is clicked, this function will run to display all organizations in the homeless Array.
@@ -315,7 +315,7 @@ $('#mentoring').change(function() {
 $('#homeless').val(this.checked);
 $('#homeless').change(function() {
   if (this.checked) {
-      $("#array").css("visibility", "visible")
+      $("#array6").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
       var h2 = $('<h2>');
         h2.append('<h2>' + homeless[i].name + '</h2>');
@@ -324,13 +324,13 @@ $('#homeless').change(function() {
         p.append('<p>' + homeless[i].address + '</p>');
         p.append('<p>' + homeless[i].phone + '</p>');
         p.append('<p>' + homeless[i].website + '</p>');
-      $('#array').append(h2);
-      $('#array').append(p);
+      $('#array6').append(h2);
+      $('#array6').append(p);
     }
   }
   else {
-  $("#array").empty();
-  $("#array").css("visibility", "hidden")
+  $("#array6").empty();
+  $("#array6").css("visibility", "hidden")
   }
 });
 // //If Animal Care is clicked, this function will run to display all organizations in the animals Array.
@@ -338,7 +338,7 @@ $('#homeless').change(function() {
 $('#animals').val(this.checked);
 $('#animals').change(function() {
   if (this.checked) {
-    $("#array").css("visibility", "visible")
+    $("#array7").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
       var h2 = $('<h2>');
         h2.append('<h2>' + animals[i].name + '</h2>');
@@ -347,13 +347,13 @@ $('#animals').change(function() {
         p.append('<p>' + animals[i].address + '</p>');
         p.append('<p>' + animals[i].phone + '</p>');
         p.append('<p>' + animals[i].website + '</p>');
-      $('#array').append(h2);
-      $('#array').append(p);
+      $('#array7').append(h2);
+      $('#array7').append(p);
     }
   }
   else {
-    $("#array").empty();
-    $("#array").css("visibility", "hidden")
+    $("#array7").empty();
+    $("#array7").css("visibility", "hidden")
   }
 });
 // //If Sustainable Farming is clicked, this function will run to display all organizations in the farming Array.
@@ -362,7 +362,7 @@ $('#animals').change(function() {
 $('#farming').val(this.checked);
 $('#farming').change(function() {
   if (this.checked) {
-      $("#array").css("visibility", "visible")
+      $("#array8").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
       var h2 = $('<h2>');
         h2.append('<h2>' + farming[i].name + '</h2>');
@@ -371,12 +371,12 @@ $('#farming').change(function() {
         p.append('<p>' + farming[i].address + '</p>');
         p.append('<p>' + farming[i].phone + '</p>');
         p.append('<p>' + farming[i].website + '</p>');
-      $('#array').append(h2);
-      $('#array').append(p);
+      $('#array8').append(h2);
+      $('#array8').append(p);
     }
   }
   else {
-    $("#array").empty();
-    $("#array").css("visibility", "hidden")
+    $("#array8").empty();
+    $("#array8").css("visibility", "hidden")
   }
 });
