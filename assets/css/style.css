@@ -1,7 +1,7 @@
 /* Style for background */
 
 body {
-    height: 145vh;
+    height: 121vh;
     background: linear-gradient(-45deg, #c8e6fc, rgb(15, 203, 236), #c8e6fc, rgb(36, 124, 255), rgb(6, 233, 21)), green;
     background-size: 400% 400%;
     -webkit-animation: Gradient 15s ease infinite;
@@ -90,10 +90,10 @@ canvas{
 }
 
  a:hover {transition: .8s;
-         border-radius: 50%;
+    border-color:black;
+         border-radius: 10%;
          border-width: 5px;
-    background-color: transparent;
-    border-color: #010e1c; 
+    background-color: cornflowerblue;
     font-size:150%;   
 }
 
@@ -130,6 +130,7 @@ canvas{
 
 .top {
     padding-top: 99px;
+    margin-bottom: 80px;
     margin-right:20px;
     margin-left:20px;
     text-align: center;
@@ -166,14 +167,23 @@ canvas{
 }
 
 
-/* Footer style */
 
 
+/* Start Middle style */
 
 .bottom{
-    padding: 5px;
-    background-color: #c9e7fc;
+    padding: 0px;
+    margin-bottom: 0%;
+    margin-top:0%;
     
+    
+}
+
+/* Start footer styling */
+
+.footer{
+    padding:0px;
+    background-color: #c9e7fc;
 }
 
 
