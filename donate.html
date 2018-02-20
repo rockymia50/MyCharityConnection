@@ -1,384 +1,179 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Charity Connect</title>
 
-    <!-- Bootstrap File -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MyCharityApp</title>
 
 
-    <!-- Links to different pages -->
-<<<<<<< HEAD
-    <link href="MyCharityConnection/assets/css/reset.css" type="reset" rel="reset">
-    <link href="/Users/rogermcintosh/MyCharityConnection/assets/css/style.css" type="text/css" rel="stylesheet">
 
-=======
-    <link href="./assets/css/reset.css" type="reset" rel="reset">
-    <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
+  <!-- CSS Reset -->
+  <link href="./assets/css/reset.css" type="reset" rel="reset">
 
-    <!-- Start WOWSlider.com HEAD section -->
-    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
-    <script type="text/javascript" src="engine1/jquery.js"></script>
-    <!-- End WOWSlider.com HEAD section -->
->>>>>>> 08d252bcd05dd15faf2f613b225fcc39ad5c75cc
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script type="text/javascript" src="./assets/javascript/app.js"></script>
+  <!-- Bulma Framework-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 
+  <!-- Our CSS -->
+  <link href="./assets/css/style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Start WOWSlider.com HEAD section -->
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+
+  <!-- JQuery & JQuery UI -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 </head>
 
-<body>
-<<<<<<< HEAD
-    <!-- Navigation -->
-    <div class="hero-head">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="navbar-brand">
-                        <a class="navbar-pic" href="./index.html">
-                            <img src="./assets/images/LogoCharity1.png" alt="Logo" style="
-                            height: 50px;
-                            margin-left: 12px;">
-                        </a>
-                    </div>
-                    <div id="navbarMenu" class="navbar-menu">
-                        <div class="navbar-end">
-    
-                            <a class="navbar-item" style="cursor:crosshair;font-size:35px;color:blue;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"
-                                a href="./index.html">
-                                <i class="fa fa-home"></i>
-                            </a>
-    
-                            <a class="navbar-item" style="cursor:crosshair;font-size:35px;color:gree;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"
-                                a href="./donate.html">
-                                <i class="fa fa-money"></i>
-    
-                            </a>
-                            <a class="navbar-item" style="cursor:crosshair;font-size:35px;color:yellow;border-radius: 50%;-moz-border-radius: 50%;-webkit-border-radius: 50%;"
-                                a href="./contactus.html">
-                                <i class="fa fa-envelope"></i>
-    
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-=======
-        <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu
-                    <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/images/LogoCharity1.png" style="height:50px; width:177px; margin-top: -15px;" alt="logopicture" id="logo"
-                    />
-                </a>
-            </div>
+<body class = "content">
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="./index.html">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="./donate.html">Donate</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="./contactus.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
->>>>>>> 08d252bcd05dd15faf2f613b225fcc39ad5c75cc
+  <!-- Navigation -->
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-pic" href="./index.html">
+        <img src="./assets/images/LogoCharity1.png" alt="Logo" style="height: 50px; margin-left: 12px;">
+      </a>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class ="navbar-item" href="./index.html">About</a>
+          <a class ="navbar-item" href="./volunteer.html">Volunteer</a>
+          <a class ="navbar-item" href="./contactus.html">Contact</a>
+          </a>
         </div>
+      </div>
+    </div>
+  </div>
 
-    <!-- End Navigation -->
+ <!-- Donate Page -->
 
-    <section class="success" id="donate" style="">
-        <div class="container">
-            <h2>
-                <strong>DONATE</strong>
-            </h2>
+<section class="success" id="volunteer">
+  <div class="container">
+    <h1 class="is-medium">Donate</h1>
+    <hr class="star-light">
+    <br>
+    <div class = "columns">
+ <!-- Checkbox widget -->
+      <div class="column is-one-half">
+        <div class="widget">
+          <h2>What would you like to donate towards? </h2>
+          <fieldset>
+            <legend> </legend>
+            <label for="interest-1">Animal / Wildlife
+              <input type="checkbox" value="animalv" id="animalv" name="interest-1" class="interest-1">
+            </label>
+            <label for="interest-2">Environment
+              <input type="checkbox" value="environmentv" id="environmentv" name="interest-2" class="interest-2">
+            </label>
+            <label for="interest-3">Health
+              <input type="checkbox" value="healthv" id="healthv" name="interest-3" class="interest-3">
+            </label>
+            <label for="interest-4">Education
+              <input type="checkbox" value="educationv" id="educationv" name="interest-4" class="interest-4">
+            </label>
+            <label type="interest-5">Arts & Culture
+              <input type="checkbox" value="artv" id="artv" name="interest-5" class="interest-5">
+            </label>
+            <label type="interest-6">International Relief and Development
+              <input type="checkbox" value="intv" id="intv" name="interest-6" class="interest-6">
+            </label>
+            <label type="interest-7">Youth Development
+              <input type="checkbox" value="youthv" id="youthv" name="interest-7" class="interest-7">
+            </label>
+            <label type="interest-8">Military & Veterans
+              <input type="checkbox" value="militaryv" id="militaryv" name="interest-8" class="interest-8">
+            </label>
+            <label type="interest-9">Hunger
+              <input type="checkbox" value="hungerv" id="hungerv" name="interest-9" class="interest-9">
+            </label>
+            <label type="interest-10">Menthal Health
+              <input type="checkbox" value="menthalv" id="mentalv" name="interest-10" class="interest-10">
+            </label>
+          </fieldset>
         </div>
-        <div class="container">
-            <div class="column" style="float:left; width:50%">
-                <p>Feeling like randomly donating to a great charity. Push our generator to get you going to the right place</p>
-            </div>
-<<<<<<< HEAD
-            <div class="column" style="float: right; width:436px;">
-                <!-- Start Slider BODY section -->
-                <div class="slideshow">
-                        <img class="mySlides w3-animate-top w3-hover-grayscale" src="./assets/images/Susan G Komen.png" style="width:100%">
-                        <img class="mySlides w3-animate-bottom w3-hover-grayscale" src="./assets/images/American4arts.jpg" style="width:100%">
-                        <img class="mySlides w3-animate-fading w3-hover-grayscale" src="./assets/images/feed america.png" style="width:100%">
-                        <img class="mySlides w3-animate-bottom w3-hover-grayscale" src="./assets/images/HFOT.png" style="width:100%">
-                        <img class="mySlides w3-animate-fading w3-hover-grayscale" src="./assets/images/mi-pham-151950.jpg" style="width:100%">
+      </div>
 
-                </div>
-=======
-            <div class="row">
-                <div class="col-md-4" style="float:left; width:75%">
-                    <p>Feeling like randomly donating to a great charity? Push our donate button!</p>
-                </div>
-                        <div class="col-md-4" style="float:right">
-                            <FORM NAME="WordForm">
-                                <INPUT TYPE=BUTTON VALUE="Donate Now!" onClick="pickRand(document.WordForm);" id="button">
-                                <div TYPE=TEXT NAME="WordBox" id="wordbox"></div>
-                                <BR>
-                            </FORM>
-                        </div>
-                </div>
-            <div class="container">
-            <div class="row">
-            <div class="widget col-md-6">
-                    <!-- <h2>Interests</h2> -->
-                    <form>
-                      <legend>What would you like to donate towards?</legend>
-                      <label for="interest-1">Animal / Wildlife</label>
-                      <input type="checkbox" value="animalv" id="animalv" name="interest-1" class="interest-1">
-                      <label for="interest-2">Environment</label>
-                      <input type="checkbox" value="environmentv" id="environmentv" name="interest-2" class="interest-2">
-                      <label for="interest-3">Health</label>
-                      <input type="checkbox" value="healthv" id="healthv" name="interest-3" class="interest-3">
-                      <label for="interest-4">Education</label>
-                      <input type="checkbox" value="educationv" id="educationv" name="interest-4" class="interest-4">
-                      <label type="interest-5">Arts & Culture</label>
-                      <input type="checkbox" value="artv" id="artv" name="interest-5" class="interest-5">
-                      <label type="interest-6">International Relief and Development</label>
-                      <input type="checkbox" value="intv" id="intv" name="interest-6" class="interest-6">
-                      <label type="interest-7">Youth Development</label>
-                      <input type="checkbox" value="youthv" id="youthv" name="interest-7" class="interest-7">
-                      <label type="interest-8">Military & Veterans</label>
-                      <input type="checkbox" value="militaryv" id="militaryv" name="interest-8" class="interest-8">
-                      <label type="interest-9">Hunger</label>
-                      <input type="checkbox" value="hungerv" id="hungerv" name="interest-9" class="interest-9">
-                      <label type="interest-10">Menthal Health</label>
-                      <input type="checkbox" value="menthalv" id="mentalv" name="interest-10" class="interest-10">
-                    </form>
-                    </div>
-                </div>
-                <div class="col-md-4" style="float: right; width:436px;">
-                    <!-- Start WOWSlider.com BODY section -->
-                    <div id="wowslider-container1">
-                        <div class="ws_images">
-                            <ul>
-                                <li>
-                                    <img src="data1/images/jellekevanooteghem362320.jpg" alt="jelleke-vanooteghem-362320" title=""
-                                        id="wows1_0" />
-                                </li>
-                                <li>
-                                    <img src="./data1/images/andriklangfieldpetrides328877.jpg" alt="andrik-langfield-petrides-328877" title=""
-                                        id="wows1_1" />
-                                </li>
-                                <li>
-                                    <img src="./data1/images/larmrmah216854.jpg" alt="larm-rmah-216854" title="" id="wows1_2" />
-                                </li>
-                                <li>
-                                    <img src="./data1/images/mipham151950.jpg" alt="mi-pham-151950" title="" id="wows1_3" />
-                                </li>
-                                <li>
-
-                                    <img src="./data1/images/annasamoylova535880.jpg" alt="html5 slider" title="" id="wows1_4" />
-
-                                </li>
-                                <li>
-                                    <img src="./data1/images/kellysikkema198975.jpg" alt="kelly-sikkema-198975" title="" id="wows1_5" />
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="ws_bullets">
-                            <div>
-                                <a href="#" title="jelleke-vanooteghem-362320">
-                                    <span>
-                                        <img src="./data1/tooltips/jellekevanooteghem362320.jpg" alt="jelleke-vanooteghem-362320" />1</span>
-                                </a>
-                                <a href="#" title="andrik-langfield-petrides-328877">
-                                    <span>
-                                        <img src="./data1/tooltips/andriklangfieldpetrides328877.jpg" alt="andrik-langfield-petrides-328877" />2</span>
-                                </a>
-                                <a href="#" title="larm-rmah-216854">
-                                    <span>
-                                        <img src="./data1/tooltips/larmrmah216854.jpg" alt="larm-rmah-216854" />3</span>
-                                </a>
-                                <a href="#" title="mi-pham-151950">
-                                    <span>
-                                        <img src="./data1/tooltips/mipham151950.jpg" alt="mi-pham-151950" />4</span>
-                                </a>
-                                <a href="#" title="anna-samoylova-535880">
-                                    <span>
-                                        <img src="./data1/tooltips/annasamoylova535880.jpg" alt="anna-samoylova-535880" />5</span>
-                                </a>
-                                <a href="#" title="kelly-sikkema-198975">
-                                    <span>
-                                        <img src="./data1/tooltips/kellysikkema198975.jpg" alt="kelly-sikkema-198975" />6</span>
-                                </a>
-                                <div class="ws_shadow"></div>
-                            </div>
-                            <script type="text/javascript" src="./engine1/wowslider.js"></script>
-                            <script type="text/javascript" src="./engine1/script.js"></script>
-                            <!-- End WOWSlider.com BODY section -->
->>>>>>> 08d252bcd05dd15faf2f613b225fcc39ad5c75cc
-
-
-
-                <!-- <div id="wowslider-container1">
-                    <div class="ws_images">
-                        <ul>
-                            <li>
-                                <img src="./assets/images/SusanG.png" alt="Susan G Komen" id="wows1_0"/>
-                            </li>
-                            <li>
-                                
-                            </li>
-                            <li>
-                                <img src="./data1/images/andriklangfieldpetrides328877.jpg" alt="andrik-langfield-petrides-328877" id="wows1_1" />
-                            </li>
-                            <li>
-                                <img src="./data1/images/larmrmah216854.jpg" alt="larm-rmah-216854" id="wows1_2" />
-                            </li>
-                            <li>
-                                <img src="./data1/images/mipham151950.jpg" alt="mi-pham-151950" id="wows1_3" />
-                            </li>
-                            <li>
-
-                                <img src="./data1/images/annasamoylova535880.jpg" alt="html5 slider" id="wows1_4" />
-
-                            </li>
-                            <li>
-                                <img src="./data1/images/kellysikkema198975.jpg" alt="kelly-sikkema-198975" id="wows1_5" />
-                            </li>
-                        </ul>
-                    </div> -->
-
-                    <!-- <script type="text/javascript" src="./engine1/wowslider.js"></script>
-                    <script type="text/javascript" src="./engine1/script.js"></script> -->
-                    <!-- End WOWSlider.com BODY section -->
-
-                </div>
-<<<<<<< HEAD
-
-            </div>
+  <!--carousel of images-->
+      <div class="column is-one-half">
+        <div id="wowslider-container1">
+          <div class="ws_images">
+            <ul>
+              <li>
+                <img src="data1/images/jellekevanooteghem362320.jpg" alt="jelleke-vanooteghem-362320" title="" id="wows1_0" />
+              </li>
+              <li>
+                <img src="./data1/images/andriklangfieldpetrides328877.jpg" alt="andrik-langfield-petrides-328877" title="" id="wows1_1" />
+              </li>
+              <li>
+                <img src="./data1/images/larmrmah216854.jpg" alt="larm-rmah-216854" title="" id="wows1_2" />
+              </li>
+              <li>
+                <img src="./data1/images/mipham151950.jpg" alt="mi-pham-151950" title="" id="wows1_3" />
+              </li>
+              <li>
+                <img src="./data1/images/annasamoylova535880.jpg" alt="html5 slider" title="" id="wows1_4" />
+              </li>
+              <li>
+                <img src="./data1/images/kellysikkema198975.jpg" alt="kelly-sikkema-198975" title="" id="wows1_5" />
+              </li>
+            </ul>
+            </ul>
+          </div>
+          <div class="ws_bullets">
+            <!-- <div>
+              <a href="#" title="jelleke-vanooteghem-362320"><span><img src="./assets/images/jelleke-vanooteghem-362320.jpg.jpg" alt="jelleke-vanooteghem-362320"/>1</span></a>
+              <a href="#" title="andrik-langfield-petrides-328877"><span><img src="./assets/images/andrik-langfield-petrides-328877.jpg" alt="andrik-langfield-petrides-328877"/>2</span></a>
+              <a href="#" title="larm-rmah-216854"><span><img src="./assets/images/larmrmah216854.jpg" alt="larm-rmah-216854"/>3</span></a>
+              <a href="#" title="mi-pham-151950"><span><img src="./assets/images/mipham151950.jpg" alt="mi-pham-151950"/>4</span></a>
+              <a href="#" title="anna-samoylova-535880"><span><img src="./assets/images/annasamoylova535880.jpg" alt="anna-samoylova-535880"/>5</span></a>
+              <a href="#" title="kelly-sikkema-198975"><span><img src="./assets/images/kellysikkema198975.jpg" alt="kelly-sikkema-198975"/>6</span></a>
+              <div class="ws_shadow"></div>
+            </div> -->
+              <script type="text/javascript" src="engine1/wowslider.js"></script>
+              <script type="text/javascript" src="engine1/script.js"></script>
+          </div>
+        <!-- <div class="col-lg-8 col-lg-offset-2 text-center">
+          <a href="#" class="btn btn-lg btn-outline">
+          </a>
+        </div> -->
         </div>
-        <div class="container">
-                <div class="column" style="float:left; width:50%">GIVE NOW
-                    <FORM NAME="WordForm">
-                        <div TYPE=TEXT NAME="WordBox" id="wordbox"></div>
-                        <BR>
-                        <INPUT TYPE=BUTTON VALUE="Generate" onClick="pickRand(document.WordForm);" id="button">
-                    </FORM>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-=======
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="#" class="btn btn-lg btn-outline">
+<!-- Results of checkbox clicks -->
+<section>
+  <div class = "content">
+    <div class="npoutput is-medium column is-4 is-offset-1">
+        <span id="results"></span>
+        <span id="results1"></span>
+        <span id="results2"></span>
+        <span id="results3"></span>
+        <span id="results4"></span>
+        <span id="results5"></span>
+        <span id="results6"></span>
+        <span id="results7"></span>
+        <span id="results8"></span>
+        <span id="results9"></span>
+    </div>
+    <div class"column is-6">
+ <!-- **MAP CODE GOES HERE -->
+    </div>
+  </div>
+</section>
 
-                    </a>
-                </div>
-                <!-- <div class="container"> -->
-                <div class="row">
-                <div class="btn col-md-6">
-                    <h3 type="matchcharity">Match Me!</h3>
-                </div>
-                </div>
-                <div class="donate row">
-                <div class="npoutput col-md-6">
-                    <ul>
-                            <span id="results"></span>
-                            <span id="results1"></span>
-                            <span id="results2"></span>
-                            <span id="results3"></span>
-                            <span id="results4"></span>
-                            <span id="results5"></span>
-                            <span id="results6"></span>
-                            <span id="results7"></span>
-                            <span id="results8"></span>
-                            <span id="results9"></span>
-                            
-                    </ul>
-                
-                </div>
-                <div class="map col-md-6">
-
-                    <!-- Instert Map Data -->
-                
-            </div>
-            </div>
-            </div>
->>>>>>> 08d252bcd05dd15faf2f613b225fcc39ad5c75cc
-        </div>
-    </section>
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>About Charity Connect</h3>
-                        <p>Started by 4 nobody's who wanted to be somebody's to better connect people with philantropic
-                            causes
-                        </p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                            <h3>Around the Web</h3>
-                            <ul class="list-inline">
-                                <li>
-                                    <a href="#" class="btn-social btn-outline" style="font-size:36px">
-                                        <i class="fa fa-fw fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="icon" style="font-size:36px">
-                                        <i class="fa fa-fw fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline-light btn-social text-center rounded-circle" style="font-size:36px">
-                                        <i class="fa fa-fw fa-linkedin"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" class="btn-social btn-outline" style="font-size:36px">
-                                        <i class="fa fa-fw fa-instagram"></i>
-                                    </a>
-                                </li>
-                            </ul>
-
-                        </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Charity Connect 2018
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <script type="text/javascript" src="./assets/javascript/app.js"></script>
-    <script type="text/javascript" src="./assets/javascript/donate.js"></script>
+ <script type="text/javascript" src="./assets/javascript/donate.js"></script>
 </body>
 
 </html>

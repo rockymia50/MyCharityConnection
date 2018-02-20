@@ -3,7 +3,7 @@ var foodPantry = [
   {
   name: "<strong>Food and Friends</strong>",
   category: "Food Pantry",
-  address: "219 Riggs Road NE <br> Washington, DC 20011",
+  address: "<i>219 Riggs Road NE <br> Washington, DC 20011</i>",
   phone: "202-269-2277",
   website: "<a href=' https://www.foodandfriends.org/volunteer/'target='_blank'>website</a>",
   },
@@ -197,14 +197,14 @@ $('#foodPantry').val(this.checked);
     if (this.checked) {
       $("#array1").css("visibility", "visible")
       for (var i = 0; i < foodPantry.length; i++) {
-        var h2 = $('<h2>');
-          h2.append('<h2>' + foodPantry[i].name + '</h2>');
+        var h5 = $('<h5>');
+          h5.append('<h5>' + foodPantry[i].name + '</h5>');
         var p = $('<p>');
           p.append('<p>' + foodPantry[i].category + '</p>');
           p.append('<p>' + foodPantry[i].address + '</p>');
           p.append('<p>' + foodPantry[i].phone + '</p>');
           p.append('<p>' + foodPantry[i].website + '</p>');
-        $('#array1').append(h2);
+        $('#array1').append(h5);
         $('#array1').append(p);
       }
     }
@@ -221,14 +221,14 @@ $('#soupKitchen').change(function() {
   if (this.checked) {
       $("#array2").css("visibility", "visible")
     for (var i = 0; i < soupKitchen.length; i++) {
-      var h2 = $('<h2>');
-        h2.append('<h2>' + soupKitchen[i].name + '</h2>');
+      var h5 = $('<h5>');
+        h5.append('<h5>' + soupKitchen[i].name + '</h5>');
       var p = $('<p>');
         p.append('<p>' + soupKitchen[i].category + '</p>');
         p.append('<p>' + soupKitchen[i].address + '</p>');
         p.append('<p>' + soupKitchen[i].phone + '</p>');
         p.append('<p>' + soupKitchen[i].website + '</p>');
-      $('#array2').append(h2);
+      $('#array2').append(h5);
       $('#array2').append(p);
     }
   }
@@ -246,14 +246,14 @@ $('#elders').change(function() {
   if (this.checked) {
       $("#array3").css("visibility", "visible")
     for (var i = 0; i < elders.length; i++) {
-      var h2 = $('<h2>');
-        h2.append('<h2>' + elders[i].name + '</h2>');
+      var h5 = $('<h5>');
+        h5.append('<h5>' + elders[i].name + '</h5>');
       var p = $('<p>');
         p.append('<p>' + elders[i].category + '</p>');
         p.append('<p>' + elders[i].address + '</p>');
         p.append('<p>' + elders[i].phone + '</p>');
         p.append('<p>' + elders[i].website + '</p>');
-      $('#array3').append(h2);
+      $('#array3').append(h5);
       $('#array3').append(p);
     }
   }
@@ -270,14 +270,14 @@ $('#kids').change(function() {
   if (this.checked) {
       $("#array4").css("visibility", "visible")
     for (var i = 0; i < kids.length; i++) {
-      var h2 = $('<h2>');
-        h2.append('<h2>' + kids[i].name + '</h2>');
+      var h5 = $('<h5>');
+        h5.append('<h5>' + kids[i].name + '</h5>');
       var p = $('<p>');
         p.append('<p>' + kids[i].category + '</p>');
         p.append('<p>' + kids[i].address + '</p>');
         p.append('<p>' + kids[i].phone + '</p>');
         p.append('<p>' + kids[i].website + '</p>');
-      $('#array4').append(h2);
+      $('#array4').append(h5);
       $('#array4').append(p);
     }
   }
@@ -294,14 +294,14 @@ $('#mentoring').change(function() {
   if (this.checked) {
       $("#array5").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
-      var h2 = $('<h2>');
-        h2.append('<h2>' + mentoring[i].name + '</h2>');
+      var h5 = $('<h5>');
+        h5.append('<h5>' + mentoring[i].name + '</h5>');
       var p = $('<p>');
         p.append('<p>' + mentoring[i].category + '</p>');
         p.append('<p>' + mentoring[i].address + '</p>');
         p.append('<p>' + mentoring[i].phone + '</p>');
         p.append('<p>' + mentoring[i].website + '</p>');
-      $('#array5').append(h2);
+      $('#array5').append(h5);
       $('#array5').append(p);
     }
   }
@@ -317,14 +317,14 @@ $('#homeless').change(function() {
   if (this.checked) {
       $("#array6").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
-      var h2 = $('<h2>');
-        h2.append('<h2>' + homeless[i].name + '</h2>');
+      var h5 = $('<h5>');
+        h5.append('<h5>' + homeless[i].name + '</h5>');
       var p = $('<p>');
         p.append('<p>' + homeless[i].category + '</p>');
         p.append('<p>' + homeless[i].address + '</p>');
         p.append('<p>' + homeless[i].phone + '</p>');
         p.append('<p>' + homeless[i].website + '</p>');
-      $('#array6').append(h2);
+      $('#array6').append(h5);
       $('#array6').append(p);
     }
   }
@@ -340,14 +340,14 @@ $('#animals').change(function() {
   if (this.checked) {
     $("#array7").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
-      var h2 = $('<h2>');
-        h2.append('<h2>' + animals[i].name + '</h2>');
+      var h5 = $('<h5>');
+        h5.append('<h5>' + animals[i].name + '</h5>');
       var p = $('<p>');
         p.append('<p>' + animals[i].category + '</p>');
         p.append('<p>' + animals[i].address + '</p>');
         p.append('<p>' + animals[i].phone + '</p>');
         p.append('<p>' + animals[i].website + '</p>');
-      $('#array7').append(h2);
+      $('#array7').append(h5);
       $('#array7').append(p);
     }
   }
@@ -364,14 +364,14 @@ $('#farming').change(function() {
   if (this.checked) {
       $("#array8").css("visibility", "visible")
     for (var i = 0; i < mentoring.length; i++) {
-      var h2 = $('<h2>');
-        h2.append('<h2>' + farming[i].name + '</h2>');
+      var h5 = $('<h5>');
+        h5.append('<h5>' + farming[i].name + '</h5>');
       var p = $('<p>');
         p.append('<p>' + farming[i].category + '</p>');
         p.append('<p>' + farming[i].address + '</p>');
         p.append('<p>' + farming[i].phone + '</p>');
         p.append('<p>' + farming[i].website + '</p>');
-      $('#array8').append(h2);
+      $('#array8').append(h5);
       $('#array8').append(p);
     }
   }

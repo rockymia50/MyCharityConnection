@@ -8,7 +8,7 @@ var animalwildlifeCat = [
         Website: "<a href='http://www.nwf.org' > Website</a>",
         Donation: "<a href='https://online.nwf.org/site/Donation2?df_id=42395&42395.donation=form1&mfc_pref=T' > Donate Here!</a>",
     },
-    {   
+    {
         category:"Animal / Wildlife",
         name: "Conservation Society",
         Address:"2300 Southern Boulevard Bronx, <br>  New York 10460",
@@ -27,7 +27,7 @@ var environmentalCat = [
         Website: "<a href='http://www.waterkeeper.org/' > Website</a>",
         Donation: "<a href='https://waterkeeper.org/donate/' > Donate Here!</a>",
     },
-    {   
+    {
         category:"Environment",
         name: "Conversation Society",
         Address:"2300 Southern Boulevard Bronx, <br> New York 10460",
@@ -35,7 +35,7 @@ var environmentalCat = [
         Website: "<a href='https://www.wcs.org/' > Website</a>",
         Donation: "<a href='https://secure.wcs.org/donate/donate-and-help-save-wildlife?_ga=2.197344236.21712484.1518721538-494685728.1518721538' > Donate Here!</a>",
     },
-    {   
+    {
         category:"Environment",
         name: "Charity:Water",
         Address:"40 Worth Street, Suite 330, <br> New York, NY 10013",
@@ -46,7 +46,7 @@ var environmentalCat = [
 ];
 
 var healthCat = [
-    {   
+    {
         category:"Health",
         name: "American Kidney Fund",
         Address:"11921 Rockville Pike, Suite 300, <br> Rockville, MD 20852",
@@ -54,7 +54,7 @@ var healthCat = [
         Website: "<a href='http://www.kidneyfund.org/' > Website</a>",
         Donation: "<a href='https://secure2.convio.net/akf/site/SPageNavigator/Open_Input_100.html?s_src=rkd1707_mainform&s_subsrc=mainform_headeronetime&_ga=2.69670930.383023995.1518721907-1793086592.1518721907' > Donate Here!</a>",
     },
-    {   
+    {
         category:"Health",
         name: "Elizabeth Glaser Pediatric AIDS Foundation",
         Address:"1140 Connecticut Avenue NW, Suite 200, <br> Washington, DC 20036",
@@ -219,26 +219,26 @@ var militaryvetCat = [
 ];
 
 // Create funtion to run after radio button is clicked
- 
+
 $(document).ready(function() {
 
 //set initial state.
     $('#animalv').val(this.checked);
     $('#animalv').change(function() {
-  
-    if(this.checked) { 
+
+    if(this.checked) {
         $("#results").css("visibility", "visible")
-    
+
         for(var i = 0; i < animalwildlifeCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + animalwildlifeCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + animalwildlifeCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + animalwildlifeCat[i].category + '</p>');
         p.append('<p>' + animalwildlifeCat[i].Address + '</p>');
         p.append('<p>' + animalwildlifeCat[i].Phone + '</p>');
         p.append('<p>' + animalwildlifeCat[i].Website + '</p>');
         p.append('<p>' + animalwildlifeCat[i].Donation + '</p>');
-        $('#results').append(h2);
+        $('#results').append(h5);
         $('#results').append(p);
         }
         }
@@ -254,7 +254,7 @@ $(document).ready(function() {
     //         height: '150px',
     //         width: '150px'
     //     });
-    // }); 
+    // });
 
     $('#environmentv').val(this.checked);
     $('#environmentv').change(function() {
@@ -262,15 +262,15 @@ $(document).ready(function() {
         $("#results1").css("visibility", "visible")
 
         for(var i = 0; i < environmentalCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + environmentalCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + environmentalCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + environmentalCat[i].category + '</p>');
         p.append('<p>' + environmentalCat[i].Address + '</p>');
         p.append('<p>' + environmentalCat[i].Phone + '</p>');
         p.append('<p>' + environmentalCat[i].Website + '</p>');
         p.append('<p>' + environmentalCat[i].Donation + '</p>');
-        $('#results1').append(h2);
+        $('#results1').append(h5);
         $('#results1').append(p);
         }
         }
@@ -287,15 +287,15 @@ $(document).ready(function() {
         $("#results2").css("visibility", "visible")
 
         for(var i = 0; i < healthCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + healthCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + healthCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + healthCat[i].category + '</p>');
         p.append('<p>' + healthCat[i].Address + '</p>');
         p.append('<p>' + healthCat[i].Phone + '</p>');
         p.append('<p>' + healthCat[i].Website + '</p>');
         p.append('<p>' + healthCat[i].Donation + '</p>');
-        $('#results2').append(h2);
+        $('#results2').append(h5);
         $('#results2').append(p);
 
         }
@@ -313,15 +313,15 @@ $(document).ready(function() {
         $("#results3").css("visibility", "visible")
 
         for(var i = 0; i < educationCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + educationCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + educationCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + educationCat[i].category + '</p>');
         p.append('<p>' + educationCat[i].Address + '</p>');
         p.append('<p>' + educationCat[i].Phone + '</p>');
         p.append('<p>' + educationCat[i].Website + '</p>');
         p.append('<p>' + educationCat[i].Donation + '</p>');
-        $('#results3').append(h2);
+        $('#results3').append(h5);
         $('#results3').append(p);
         }
         }
@@ -338,15 +338,15 @@ $(document).ready(function() {
         $("#results4").css("visibility", "visible")
 
         for(var i = 0; i < artscultCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + artscultCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + artscultCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + artscultCat[i].category + '</p>');
         p.append('<p>' + artscultCat[i].Address + '</p>');
         p.append('<p>' + artscultCat[i].Phone + '</p>');
         p.append('<p>' + artscultCat[i].Website + '</p>');
         p.append('<p>' + artscultCat[i].Donation + '</p>');
-        $('#results4').append(h2);
+        $('#results4').append(h5);
         $('#results4').append(p);
         }
         }
@@ -363,15 +363,15 @@ $(document).ready(function() {
         $("#results5").css("visibility", "visible")
 
         for(var i = 0; i < hungerCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + hungerCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + hungerCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + hungerCat[i].category + '</p>');
         p.append('<p>' + hungerCat[i].Address + '</p>');
         p.append('<p>' + hungerCat[i].Phone + '</p>');
         p.append('<p>' + hungerCat[i].Website + '</p>');
         p.append('<p>' + hungerCat[i].Donation + '</p>');
-        $('#results5').append(h2);
+        $('#results5').append(h5);
         $('#results5').append(p);
         }
         }
@@ -388,15 +388,15 @@ $(document).ready(function() {
         $("#results6").css("visibility", "visible")
 
         for(var i = 0; i < mentalhealthCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + mentalhealthCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + mentalhealthCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + mentalhealthCat[i].category + '</p>');
         p.append('<p>' + mentalhealthCat[i].Address + '</p>');
         p.append('<p>' + mentalhealthCat[i].Phone + '</p>');
         p.append('<p>' + mentalhealthCat[i].Website + '</p>');
         p.append('<p>' + mentalhealthCat[i].Donation + '</p>');
-        $('#results6').append(h2);
+        $('#results6').append(h5);
         $('#results6').append(p);
         }
         }
@@ -413,15 +413,15 @@ $(document).ready(function() {
         $("#results7").css("visibility", "visible")
 
         for(var i = 0; i < youthdevCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + youthdevCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + youthdevCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + youthdevCat[i].category + '</p>');
         p.append('<p>' + youthdevCat[i].Address + '</p>');
         p.append('<p>' + youthdevCat[i].Phone + '</p>');
         p.append('<p>' + youthdevCat[i].Website + '</p>');
         p.append('<p>' + youthdevCat[i].Donation + '</p>');
-        $('#results7').append(h2);
+        $('#results7').append(h5);
         $('#results7').append(p);
         }
         }
@@ -438,15 +438,15 @@ $(document).ready(function() {
         $("#results8").css("visibility", "visible")
 
         for(var i = 0; i < irdCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + irdCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + irdCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + irdCat[i].category + '</p>');
         p.append('<p>' + irdCat[i].Address + '</p>');
         p.append('<p>' + irdCat[i].Phone + '</p>');
         p.append('<p>' + irdCat[i].Website + '</p>');
         p.append('<p>' + irdCat[i].Donation + '</p>');
-        $('#results8').append(h2);
+        $('#results8').append(h5);
         $('#results8').append(p);
         }
         }
@@ -455,7 +455,7 @@ $(document).ready(function() {
             $("#results8").empty("#intv");
             }
     });
-    
+
     $('#militaryv').val(this.checked);
     $('#militaryv').change(function() {
     if(this.checked) {
@@ -463,15 +463,15 @@ $(document).ready(function() {
         $("#results9").css("visibility", "visible")
 
         for(var i = 0; i < militaryvetCat.length; i++) {
-        var h2 = $('<h2>');
-        h2.append('<h2>' + militaryvetCat[i].name + '</h2>');
+        var h5 = $('<h5>');
+        h5.append('<h5>' + militaryvetCat[i].name + '</h5>');
         var p = $('<p>');
         p.append('<p>' + militaryvetCat[i].category + '</p>');
         p.append('<p>' + militaryvetCat[i].Address + '</p>');
         p.append('<p>' + militaryvetCat[i].Phone + '</p>');
         p.append('<p>' + militaryvetCat[i].Website + '</p>');
         p.append('<p>' + militaryvetCat[i].Donation + '</p>');
-        $('#results9').append(h2);
+        $('#results9').append(h5);
         $('#results9').append(p);
         }
         }
