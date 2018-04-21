@@ -1,5 +1,7 @@
 # MyCharityConnection
 
+![alt text](https://github.com/rockymia50/MyCharityConnection/blob/master/MyCC.png?raw=true "My Charity Connection") 
+
 An application built to help consumers find local or national charities or non profits to either donate or volunteer their time.
 
 **Please visit my [Demo](https://rockymia50.github.io/MyCharityConnection/ "My Charity Connection")
